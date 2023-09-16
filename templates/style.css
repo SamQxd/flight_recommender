@@ -1,0 +1,67 @@
+
+@media screen and (min-width: 1024px)
+{
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    .information {
+        background-color: #87CEEB;
+        padding: 10%
+    }
+
+    label {
+        font-family: "Arial";
+        font-size: 200%;
+
+    }
+
+    input {
+        font-size: 200%;
+
+    }
+
+    button {
+        padding: 3%;
+        text-align: center;
+        margin-left: 50%;
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px)
+{
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    .information {
+        background-color: #87CEEB;
+        padding: 20%;
+    }
+
+    label {
+        font-family: "Arial";
+        font-size: 200%;
+
+    }
+
+    input {
+        font-size: 200%;
+    }
+
+    button {
+        padding: 3%;
+        text-align: center;
+        margin-left: 50%;
+        font-size: 100%;
+    }
+}
