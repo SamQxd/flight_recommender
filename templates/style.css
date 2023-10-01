@@ -7,21 +7,25 @@
         justify-content: center;
         margin: 0 auto;
         height: 100vh;
+        background: radial-gradient(deepskyblue, white);
     }
 
     .information {
-        background-color: #87CEEB;
         padding: 10%
     }
 
     label {
-        font-family: "Arial";
+        font-family: "Bahnschrift";
         font-size: 200%;
 
     }
 
     input {
         font-size: 200%;
+        border-radius:10px;
+        border:0;
+        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+        border-bottom:1px solid #eee;
 
     }
 
@@ -30,7 +34,35 @@
         text-align: center;
         margin-left: 50%;
         font-size: 100%;
+        border-radius:10px;
+        border:0;
+        border-bottom:1px solid #eee;
+        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+        font-family: "Bahnschrift";
     }
+
+    button:hover {
+        font-size: 100.5%;
+    }
+
+    .img1 {
+        position: fixed;
+        right:4%;
+        bottom:10%;
+        width: 25.5%;
+        height: 52%;
+
+
+    }
+
+    .img2 {
+        position: fixed;
+        left:4%;
+        bottom:10%;
+        width: 25.5%;
+        height: 52%;
+        transform: scaleX(-1);
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px)
@@ -41,16 +73,17 @@
         justify-content: center;
         margin: 0 auto;
         height: 100vh;
+        background: radial-gradient(lightskyblue, white);
     }
 
     .information {
-        background-color: #87CEEB;
         padding: 20%;
     }
 
     label {
-        font-family: "Arial";
+        font-family: "Bahnschrift";
         font-size: 200%;
+
 
     }
 
@@ -63,5 +96,6 @@
         text-align: center;
         margin-left: 50%;
         font-size: 100%;
+        font-family: "Bahnschrift";
     }
 }
