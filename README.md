@@ -1,2 +1,2 @@
 # flight_recommender
-A simple webpage that helps to find the most affordable flights from variety of sources. - project discontinued | reason: laziness.
+A simple webpage that helps to find the most affordable flights from variety of sources. - project on hold.
